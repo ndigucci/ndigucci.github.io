@@ -1,39 +1,59 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f9f9f9;
-  color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-header {
-  background: #000;
-  color: #fff;
-  padding: 40px;
-  text-align: center;
-}
+    <nav>
+        <div class="logo">My Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-header span {
-  color: #aaa;
-}
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Ndigucci</span></h1>
+            <p>Welcome to my personal portfolio.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
 
-section {
-  padding: 30px;
-  max-width: 900px;
-  margin: auto;
-}
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>I am a passionate professional looking to solve problems with creative solutions.</p>
+    </section>
 
-h2 {
-  border-bottom: 2px solid #000;
-  padding-bottom: 5px;
-}
+    <section id="projects" class="container">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>A brief description of my first project.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>A brief description of my second project.</p>
+            </div>
+        </div>
+    </section>
 
-ul {
-  line-height: 1.8;
-}
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>Ready to work together?</p>
+        <a href="mailto:email@example.com" class="btn">Email Me</a>
+    </section>
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #000;
-  color: #fff;
-}
+    <footer>
+        <p>&copy; 2025 Ndigucci. Built for GitHub.</p>
+    </footer>
+
+</body>
+</html>
